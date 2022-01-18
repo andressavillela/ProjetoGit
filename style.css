@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Pathway+Gothic+One&family=Quicksand:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #E9E9E9 16.62%, #0B0762 85.61%);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+#logo {
+    height: 85px;
+    border-radius: 50%;
+}
+
+#navbar {
+    display: flex;
+    gap: 32px;
+
+}
+
+.navbar-item {
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF;
+}
+
+main {
+    margin-bottom: 48px;
+    padding-right: 15px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 60px;
+    gap: 80px;
+}
+
+
+
+#ola {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 5em;
+    color: #30526A;
+}
+
+#apresentacao-texto {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    color: #30526A;
+    width: 480px;
+    line-height: 50px;
+}
+
+#avatar-1 {
+    width: 400px;
+}
