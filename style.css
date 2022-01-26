@@ -9,6 +9,7 @@
 body {
     font-size: 100%;
     background: linear-gradient(to right, #E9E9E9 16.62%, #0B0762 85.61%);
+    
 }
 header {
     display: flex;
@@ -20,6 +21,10 @@ header {
 #logo {
     height: 85px;
     border-radius: 50%;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 #navbar {
@@ -34,9 +39,14 @@ header {
     color: #FFFFFF;
 }
 
+.navbar-item:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 main {
-    margin-bottom: 48px;
-    padding-right: 15px;
+    
 }
 
 .apresentacao {
@@ -45,6 +55,7 @@ main {
     justify-content: center;
     margin: 0 60px;
     gap: 80px;
+    padding-bottom: 60px;
 }
 
 
@@ -63,6 +74,7 @@ main {
     line-height: 50px;
 }
 
-#avatar-1 {
-    width: 400px;
+.sobre-mim {
+    background-color: #FAFAFA;
+    display: flex;
 }
