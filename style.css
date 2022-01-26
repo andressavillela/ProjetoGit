@@ -110,6 +110,13 @@ main {
     padding: 50px;
 }
 
+#minha-foto {
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+
 .sobre-mim-info {
     display:flex;
     flex-direction:column;
@@ -119,12 +126,6 @@ main {
 
 }
 
-#minha-foto {
-    width: 300px;
-    border-radius: 50%;
-    padding: 20px auto;
-    float: left;
-}
 
 .animacao {
     width: 500px;
