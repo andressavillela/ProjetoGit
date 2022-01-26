@@ -1,16 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Pathway+Gothic+One&family=Quicksand:wght@500;600&display=swap');
 
+:root {
+    --cor-primaria:#E9E9E9;
+    --cor-secundaria:#0B0762;
+    --cor-de-contraste:#AD0C00;
+    --cor-fonte-principal:#30526A;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
+*::-webkit-scrollbar {
+    width: 13px;
+
+}
+
+*::-webkit-scrollbar-track{
+    background: var(--cor-primaria);
+
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #7A7EB1;
+    border-radius: 20px;
+    border:3px solid var(--cor-primaria);
+
+}
+
 body {
     font-size: 100%;
-    background: linear-gradient(to right, #E9E9E9 16.62%, #0B0762 85.61%);
+    background: linear-gradient(to right, var(--cor-primaria) 16.62%, var(--cor-secundaria) 85.61%);
     
 }
+
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -64,13 +92,13 @@ main {
 #ola {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 5em;
-    color: #30526A;
+    color: var(--cor-fonte-principal);
 }
 
 #apresentacao-texto {
     font-family: 'Quicksand', sans-serif;
     font-size: 2em;
-    color: #30526A;
+    color: var(--cor-fonte-principal);
     width: 480px;
     line-height: 50px;
 }
@@ -78,4 +106,32 @@ main {
 .sobre-mim {
     background-color: #FAFAFA;
     display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.sobre-mim-info {
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    float: left;
+    
+
+}
+
+#minha-foto {
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px auto;
+    float: left;
+}
+
+.animacao {
+    width: 500px;
+}
+
+.sobre-mim-topico {
+    color: #7A7EB1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
 }
