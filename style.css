@@ -16,7 +16,6 @@
 
 *::-webkit-scrollbar {
     width: 13px;
-
 }
 
 *::-webkit-scrollbar-track{
@@ -34,48 +33,57 @@
 body {
     font-size: 100%;
     background: linear-gradient(to right, var(--cor-primaria) 16.62%, var(--cor-secundaria) 85.61%);
-    
 }
-
-
 
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
-}
-#logo {
-    height: 85px;
-    border-radius: 50%;
-}
-
-#logo:hover {
-    cursor: pointer;
+    padding: 30px 30px 20px 30px;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    background: none;
+    transition-duration: 0.3s;
 }
 
-#navbar {
+nav {
     display: flex;
     gap: 32px;
-
 }
 
-.navbar-item {
+nav > a {
     font-size: 24px;
     font-family: 'Comfortaa', cursive;
     color: #FFFFFF;
 }
 
-.navbar-item:hover {
+nav > a:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
+.logo {
+    height: 85px;
+    border-radius: 50%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.efeito-menu {
+    background: linear-gradient(to right, var(--cor-primaria) 16.62%, #0c0762b7 85.61%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+
 main {
     width: auto;
     height: auto;
+    padding-top: 30px;
 }
 
 .apresentacao {
@@ -87,15 +95,13 @@ main {
     padding-bottom: 100px;
 }
 
-
-
-#ola {
+.apresentacao > div > h2 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 5em;
     color: var(--cor-fonte-principal);
 }
 
-#apresentacao-texto {
+.apresentacao > div > h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 2em;
     color: var(--cor-fonte-principal);
@@ -107,32 +113,35 @@ main {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: row;
-    padding: 50px;
 }
 
-#minha-foto {
+.minha-foto {
+    float: left;
     width: 300px;
     border-radius: 50%;
     padding: 20px;
-    float: left;
 }
 
 .sobre-mim-info {
-    display:flex;
-    flex-direction:column;
-    width: 50%;
-    float: left;
-    
-
+    width: 75%;
+    padding: 50px 50px 0 0 ;
+    gap: 12px;
+    height: 500px;
 }
 
-
-.animacao {
-    width: 500px;
-}
-
-.sobre-mim-topico {
+.sobre-mim-info > h3 {
     color: #7A7EB1;
     font-family: 'Comfortaa', cursive;
     font-size: 35px;
+    padding: 20px 0;
+}
+
+.sobre-mim-info > p {
+    font-size: 20px;
+    width: 85%;
+    
+}
+
+.sobre-mim-animacao {
+    width: 25%;
 }
