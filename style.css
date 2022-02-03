@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
@@ -68,9 +69,6 @@ nav > a:hover {
 .logo {
     height: 85px;
     border-radius: 50%;
-}
-
-.logo:hover {
     cursor: pointer;
 }
 
@@ -78,7 +76,6 @@ nav > a:hover {
     background: linear-gradient(to right, var(--cor-primaria) 16.62%, #0c0762b7 85.61%);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
-
 
 main {
     width: auto;
@@ -105,43 +102,53 @@ main {
     font-family: 'Quicksand', sans-serif;
     font-size: 2em;
     color: var(--cor-fonte-principal);
-    width: 480px;
+    width: 35vw;
     line-height: 50px;
 }
 
+.apresentacao > img {
+    width: fit-content;
+    height: fit-content;
+}
+
 .sobre-mim {
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.sobre-mim img{
+    width: 350px;
+    padding: 0 25px;
 }
 
 .minha-foto {
     float: left;
-    width: 300px;
+    width: 50vh;
     border-radius: 50%;
     padding: 20px;
+    margin-right: 30px;
 }
 
 .sobre-mim-info {
     width: 75%;
-    padding: 50px 50px 0 0 ;
     gap: 12px;
+    padding: 100px;
     height: 500px;
+    background: #ecebeb;
 }
 
 .sobre-mim-info > h3 {
-    color: #7A7EB1;
+    color: #5c136d;
     font-family: 'Comfortaa', cursive;
     font-size: 35px;
     padding: 20px 0;
 }
 
 .sobre-mim-info > p {
-    font-size: 20px;
-    width: 85%;
-    
-}
-
-.sobre-mim-animacao {
-    width: 25%;
+    font-size: 30px;
+    color: #5c136d;
+    font-family: 'Quicksand', sans-serif;
 }
