@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria:#E9E9E9;
-    --cor-secundaria:#0B0762;
+    --cor-secundaria:#8a4fff;
     --cor-de-contraste:#AD0C00;
     --cor-fonte-principal:#30526A;
 }
@@ -33,7 +33,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(to right, var(--cor-primaria) 16.62%, var(--cor-secundaria) 85.61%);
+    background: var(--cor-secundaria);
 }
 
 header {
@@ -52,11 +52,11 @@ header {
 
 nav {
     display: flex;
-    gap: 32px;
+    gap: 40px;
 }
 
 nav > a {
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Comfortaa', cursive;
     color: #FFFFFF;
     transition: 0.3s;
@@ -75,7 +75,7 @@ nav > a:hover {
 }
 
 .efeito-menu {
-    background: linear-gradient(to right, var(--cor-primaria) 16.62%, #0c0762b7 85.61%);
+    background: #8530f59b;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -97,20 +97,19 @@ main {
 .apresentacao > div > h2 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 5em;
-    color: var(--cor-fonte-principal);
+    color: #FFFFFF;
 }
 
 .apresentacao > div > h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 2em;
-    color: var(--cor-fonte-principal);
+    color: #FFFFFF;
     width: 35vw;
     line-height: 50px;
 }
 
 .apresentacao > img {
-    width: fit-content;
-    height: fit-content;
+    width: 450px;
 }
 
 .sessão {
@@ -119,32 +118,36 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
+    padding: 50px 0;
 }
 
 .sobre-mim {
-    background-color: #c4acdf;
-
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
-.sobre-mim img{
-    width: 350px;
-    padding: 35px;
-}
-
-.minha-foto {
-    float: left;
-    width: 200px;
-    border-radius: 50%;
-    padding: 20px;
-    margin-right: 30px;
-}
 
 .sobre-mim-info {
-    width: 75%;
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    padding: 60px;
+    border-radius: 10%;
     gap: 12px;
-    padding: 100px;
     height: 500px;
-    background: #cbeddd;
+    background: #d5ffe1;
+}
+
+.sobre-mim-info img {
+    float: left;
+    border: solid 5px #FFFFFF;
+    border-radius: 25%;
+    height: 200px;
+    padding: 5px;
+    margin: 10px 20px;
 }
 
 .sobre-mim-info > h3 {
@@ -158,6 +161,14 @@ main {
     font-size: 30px;
     color: #7c348d;
     font-family: 'Quicksand', sans-serif;
+}
+
+.minha-foto {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 30px;
 }
 
 .tecnologias img{
@@ -185,4 +196,9 @@ main {
     -ms-transform: scale(1.1);
     transform: scale(1.1);   
 
+}
+
+.projetos img {
+    width: 350px;
+    padding: 35px;
 }
