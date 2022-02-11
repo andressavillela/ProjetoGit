@@ -23,12 +23,12 @@
 }
 
 *::-webkit-scrollbar-track{
-    background: var(--cor-primaria);
+    background: var(--cor-fonte-parágrafos);
 
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: #7A7EB1;
+    background-color: var(--cor-primaria);
     border-radius: 20px;
     border:3px solid var(--cor-primaria);
 
@@ -62,7 +62,7 @@ nav > a {
     font-size: 30px;
     font-family: var(--fonte-principal);
     color: white;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 nav > a:hover {
@@ -72,9 +72,13 @@ nav > a:hover {
 }
 
 .logo {
-    height: 85px;
-    border-radius: 50%;
+    height: 80px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover {
+
+    transform: scale(1.1);
 }
 
 .efeito-menu {
@@ -116,22 +120,26 @@ main {
 }
 
 .sessão {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
-    padding: 50px 100px;
+}
+
+hr {
+    color: #ecebeb78;
+    width: 700px ;
+    text-align: center;
+    margin:40px 0;
 }
 
 .sobre-mim {
-    background-color: #eaf9fc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 150px 100px 200px 100px;
+    padding: 0px 100px 200px 100px;
 }
 
 .sobre-mim-info {
@@ -145,18 +153,18 @@ main {
 
 .fonte-e-tamanho h3{
     font-family: var(--fonte-principal);
-    color: var(--cor-fonte-principal);
+    color: white;
     font-size: 30px;
     padding: 20px 0;
 }
 
-.fonte-e-tamanho p{
+.sm-info-um p{
     font-family: var(--fonte-secondaria);
-    color: var(--cor-fonte-parágrafos);
+    color: white;
     font-size: 22px;
     font-weight:bold;
     padding:0 0 10px 10px;
-    border-left: var(--cor-fonte-parágrafos) solid 3px;
+    border-left: white solid 3px;
 }
 
 .sm-info-dois {
@@ -173,6 +181,12 @@ main {
     gap: 45px;
 }
 
+.minhas-infos ul {
+    border-right: white solid 3px;
+    text-align: right;
+    padding-right: 10px;
+}
+
 .minha-foto {
     width: 300px;
     height: 300px;
@@ -187,29 +201,43 @@ main {
 .skills-e-idiomas {
     display: flex;
     flex-direction: row;
-    gap: 18px;
-    padding: 0 80px;
+    gap: 40px;
+    padding: 80px 70px 0 70px;
+}
+
+.skills-e-idiomas h3 {
+    color: var(--cor-fonte-principal);
 }
 
 .skills-e-idiomas ul > li{
-    color: var(--cor-fonte-parágrafos);
+    color: var(--cor-fonte-principal);
     font-family: var(--fonte-secondaria);
     font-size: 20px;
     font-weight: bold;
+
 }
 
 .tecnologias {
-    background: #ecebeb;
+    background: #6cdcbc;
+    padding: 150px;
+    gap:  100px;
 }
 
-.tecnologias img{
-    width: 600px;
-    padding: 35px;
+.tec-icon h3{
+    font-size: 40px;
+    font-family: var(--fonte-principal);
+    color: #006666;
+}
+
+.tec-icon img{
+    width: 300px;
+    border-right: solid #E9E9E9 1px;
+    padding: 30px;
 }
 
 .tecnologias-info {
     display: inline-block;
-    padding: 20px;
+    padding-top: 50px 20px;
 }
 
 .tecnologias-info img {
