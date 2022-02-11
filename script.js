@@ -10,3 +10,6 @@ var logo = document.querySelector(".logo");
 logo.addEventListener ('click', function(){
   window.scrollTo (0, 0);
 });
+
+var linha = document.querySelector("hr");
+

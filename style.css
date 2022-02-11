@@ -16,6 +16,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    cursor:default;
 }
 
 *::-webkit-scrollbar {
@@ -69,6 +70,7 @@ nav > a:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .logo {
@@ -82,7 +84,7 @@ nav > a:hover {
 }
 
 .efeito-menu {
-    background: #8530f59b;
+    background: #8530f585;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -127,7 +129,7 @@ main {
 }
 
 hr {
-    color: #ecebeb78;
+    color: #ecebeba1;
     width: 700px ;
     text-align: center;
     margin:40px 0;
@@ -185,6 +187,8 @@ hr {
     border-right: white solid 3px;
     text-align: right;
     padding-right: 10px;
+    list-style: none;
+    font-size: 20vw;
 }
 
 .minha-foto {
@@ -194,9 +198,6 @@ hr {
     margin-right: 30px;
 }
 
-.minhas-infos ul {
-    list-style: none;
-}
 
 .skills-e-idiomas {
     display: flex;
