@@ -109,7 +109,7 @@ main {
     color: white;
 }
 
-.apresentacao > div > h3 {
+.apresentacao > div > h3{
     font-family: var(--fonte-secondaria);
     font-size: 2em;
     color: white;
@@ -121,11 +121,12 @@ main {
     width: 450px;
 }
 
-.sessão {
+.sessao {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
+    padding: 150px 0;
 }
 
 hr {
@@ -252,4 +253,95 @@ hr {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);   
+}
+
+.projetos {
+    background-color: #2F97C1;
+    padding: 150px;
+}
+
+
+.projetos-icon h3 {
+    font-size: 40px;
+    font-family: var(--fonte-principal);
+    color: #E9E9E9;
+    padding-bottom: 25px;
+}
+
+.projetos-icon img{
+    width: 350px;
+    padding-right: 10px;
+    
+    border-right: solid 1px rgb(72, 165, 251);
+}
+
+.contato {
+    background-color: #0D0251;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d015ec' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%235702aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ae2de3' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%236600a3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238d37d8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2371009c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236d3bcb' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237a0095' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234d3cbb' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2382008e' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232a3aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-position-y: bottom;
+    background-size: cover;
+    padding: 8px 27px;
+}
+
+.contato-info h3{
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+    padding: 30px 0;
+    color: gainsboro;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contato-form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 30px;
+    font-family: var(--fonte-secondaria);
+    color: gainsboro;
+}
+
+.contato-form input, textarea {
+    border-radius: 5px;
+    padding:  0.2em;
+    box-shadow: 2px 2px 2px rgba(82, 82, 82, 0.418);
+    background-color: rgb(241, 241, 241);
+    font-family: var(--fonte-secondaria);
+    font-size: 12px;
+}
+
+.botao-form {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: gainsboro;
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.botao-form:hover {
+    background-color: #0D0251;
+    color: gainsboro;
+}
+
+.contato-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+
+.contato-links img{
+    width: 50px;
+    cursor: pointer;
 }
