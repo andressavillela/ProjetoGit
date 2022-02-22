@@ -264,13 +264,13 @@ hr {
 .projetos-icon h3 {
     font-size: 40px;
     font-family: var(--fonte-principal);
-    color: #E9E9E9;
+    color: white;
     padding-bottom: 25px;
 }
 
 .projetos-icon img{
     width: 350px;
-    padding-right: 10px;
+    padding-right: 40px;
     
     border-right: solid 1px rgb(72, 165, 251);
 }
@@ -312,6 +312,7 @@ hr {
     background-color: rgb(241, 241, 241);
     font-family: var(--fonte-secondaria);
     font-size: 12px;
+    cursor: text;
 }
 
 .botao-form {
