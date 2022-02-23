@@ -1,6 +1,15 @@
-Portifólio de apresentação
-<h3></strong>Projeto de portifólio pessoal</strong> simples com HTML e CSS</h3>
+<h1>Portifólio de apresentação</h1>
+<h2>
+    </strong>Projeto de portifólio pessoal</strong> simples com HTML, CSS e Javascript
+</h2>
 <hr>
-Este é um projeto inclui capa, e as respectivas sessões: sobre mim, bjetivos, projetos, contato
+<p>
+    Este é um projeto inclui capa, e as respectivas sessões: sobre mim, tecnologias, projetos e contato.
+</p>
 <br>
-Você pode conferir a página clicando no link https://andressavillela.github.io/Projeto_Portifolio/
+<p>
+    Você pode conferir a página clicando no link https://andressavillela.github.io/Projeto_Portifolio/
+</p>
+<br><br>
+
+
