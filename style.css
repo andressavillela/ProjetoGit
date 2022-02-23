@@ -25,14 +25,12 @@
 
 *::-webkit-scrollbar-track{
     background: var(--cor-fonte-parágrafos);
-
 }
 
 *::-webkit-scrollbar-thumb{
     background-color: var(--cor-primaria);
     border-radius: 20px;
     border:3px solid var(--cor-primaria);
-
 }
 
 body {
@@ -46,7 +44,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 30px 30px 20px 30px;
-    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
     background: none;
@@ -60,8 +58,7 @@ nav {
 }
 
 nav > a {
-    font-size: 30px;
-    font-family: var(--fonte-principal);
+    font: 30px var(--fonte-principal);
     color: white;
     transition: 0.4s;
 }
@@ -78,8 +75,8 @@ nav > a:hover {
     cursor: pointer;
     transition: 0.5s;
 }
-.logo:hover {
 
+.logo:hover {
     transform: scale(1.1);
 }
 
@@ -104,14 +101,12 @@ main {
 }
 
 .apresentacao > div > h2 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 5em;
+    font: 5em 'Pathway Gothic One', sans-serif;
     color: white;
 }
 
 .apresentacao > div > h3{
-    font-family: var(--fonte-secondaria);
-    font-size: 2em;
+    font: 2em var(--fonte-secondaria);
     color: white;
     width: 35vw;
     line-height: 50px;
@@ -155,16 +150,14 @@ hr {
 }
 
 .fonte-e-tamanho h3{
-    font-family: var(--fonte-principal);
+    font: 30px var(--fonte-principal);
     color: white;
-    font-size: 30px;
     padding: 20px 0;
 }
 
 .sm-info-um p{
-    font-family: var(--fonte-secondaria);
+    font: 22px var(--fonte-secondaria);
     color: white;
-    font-size: 22px;
     font-weight:bold;
     padding:0 0 10px 10px;
     border-left: white solid 3px;
@@ -199,7 +192,6 @@ hr {
     margin-right: 30px;
 }
 
-
 .skills-e-idiomas {
     display: flex;
     flex-direction: row;
@@ -213,10 +205,8 @@ hr {
 
 .skills-e-idiomas ul > li{
     color: var(--cor-fonte-principal);
-    font-family: var(--fonte-secondaria);
-    font-size: 20px;
+    font: 20px var(--fonte-secondaria);
     font-weight: bold;
-
 }
 
 .tecnologias {
@@ -226,8 +216,7 @@ hr {
 }
 
 .tec-icon h3{
-    font-size: 40px;
-    font-family: var(--fonte-principal);
+    font: 40px var(--fonte-principal);
     color: #006666;
 }
 
@@ -260,10 +249,8 @@ hr {
     padding: 150px;
 }
 
-
 .projetos-icon h3 {
-    font-size: 40px;
-    font-family: var(--fonte-principal);
+    font: 40px var(--fonte-principal);
     color: white;
     padding-bottom: 25px;
 }
@@ -271,21 +258,18 @@ hr {
 .projetos-icon img{
     width: 350px;
     padding-right: 40px;
-    
     border-right: solid 1px rgb(72, 165, 251);
 }
 
 .contato {
-    background-color: #0D0251;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d015ec' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%235702aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ae2de3' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%236600a3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238d37d8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2371009c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236d3bcb' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237a0095' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234d3cbb' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2382008e' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232a3aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background: #0D0251 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d015ec' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%235702aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ae2de3' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%236600a3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238d37d8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2371009c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236d3bcb' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237a0095' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234d3cbb' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2382008e' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232a3aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-position-y: bottom;
     background-size: cover;
     padding: 8px 27px;
 }
 
 .contato-info h3{
-    font-size: 50px;
-    font-family: var(--fonte-principal);
+    font: 50px var(--fonte-principal);
     padding: 30px 0;
     color: gainsboro;
 }
@@ -300,8 +284,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-size: 30px;
-    font-family: var(--fonte-secondaria);
+    font: 30px var(--fonte-secondaria);
     color: gainsboro;
 }
 
@@ -310,8 +293,7 @@ hr {
     padding:  0.2em;
     box-shadow: 2px 2px 2px rgba(82, 82, 82, 0.418);
     background-color: rgb(241, 241, 241);
-    font-family: var(--fonte-secondaria);
-    font-size: 12px;
+    font: 12px var(--fonte-secondaria);
     cursor: text;
 }
 
@@ -325,7 +307,6 @@ hr {
     font-weight: 10px;
     cursor: pointer;
     border: none;
-
 }
 
 .botao-form:hover {
@@ -340,7 +321,6 @@ hr {
     padding-top: 50px;
     gap: 30px;
 }
-
 
 .contato-links img{
     width: 50px;
