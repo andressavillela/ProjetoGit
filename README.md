@@ -1,6 +1,6 @@
-<h1>Portifólio de apresentação</h1>
+<h1>Portfólio de apresentação</h1>
 <h2>
-    </strong>Projeto de portifólio pessoal</strong> simples com HTML, CSS e Javascript
+    </strong>Projeto de portfólio pessoal</strong> simples com HTML, CSS e Javascript
 </h2>
 <hr>
 <p>
