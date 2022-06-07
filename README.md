@@ -8,7 +8,7 @@
 </p>
 <br>
 <p>
-    Você pode conferir a página clicando no link https://andressavillela.github.io/Projeto_Portifolio/
+    Você pode conferir a página clicando no link https://andressavillela.github.io/Projeto_Portfolio/
 </p>
 <br><br>
 
